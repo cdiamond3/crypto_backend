@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_24_213527) do
+ActiveRecord::Schema.define(version: 2021_06_28_194518) do
 
-  create_table "inputs", force: :cascade do |t|
-    t.string "search_value"
+  create_table "create_inputs", force: :cascade do |t|
+    t.string "input"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

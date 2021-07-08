@@ -1,3 +1,0 @@
-class Input < ApplicationRecord
-    
-end
