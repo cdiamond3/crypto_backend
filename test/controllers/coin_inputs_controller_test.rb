@@ -1,6 +1,6 @@
 require "test_helper"
 
-class CreateInputTest < ActiveSupport::TestCase
+class CoinInputsControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

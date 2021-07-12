@@ -1,3 +1,0 @@
-class CreateInput < ApplicationRecord
-    
-end
