@@ -10,11 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_08_223554) do
+ActiveRecord::Schema.define(version: 2021_07_14_015139) do
 
   create_table "coin_inputs", force: :cascade do |t|
     t.string "user_coin_input"
     t.date "dates"
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
